@@ -3,10 +3,9 @@ import React from "react";
 
 const POPUP = () => {
 
-
   return (
-    <div >
-   
+    <div className="pop-wrapper">
+  
     </div>
   );
 };
