@@ -1,0 +1,99 @@
+* {
+     margin: 0;
+     padding: 0;
+
+   }
+   body {
+     font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+       "Lucida Sans", Arial, sans-serif;
+   }
+   /* H O M E */
+   .wrapper,
+   .question-wrap {
+     background: #4b5c69;
+     height: 100vh;
+     width: 100%;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+   }
+   .inner-wrap,
+   .question-inner {
+     max-height: 70vh;
+     width: 400px;
+     margin: 0 20px;
+     background: #f5fffe;
+     border-radius: 5px;
+     padding: 40px 50px;
+   }
+   .inner-wrap h1 {
+     font-size: 2.5rem;
+     font-weight: bold;
+     color: rgb(54, 54, 54);
+     margin-bottom: 20px;
+   }
+   .inner-wrap p {
+     font-size: 1.1rem;
+     margin-bottom: 5px;
+   }
+   .inner-wrap input,
+   .inner-wrap select {
+     font-size: 1.1rem;
+     margin-bottom: 30px;
+     width: 100%;
+     border: none;
+     background: rgb(228, 228, 228);
+     padding: 3px 5px;
+     border-radius: 4px;
+     outline: none;
+   }
+   .inner-wrap select {
+     font-size: 1rem;
+   }
+   .inner-wrap button {
+     font-size: 1.2rem;
+     font-weight: bold;
+     background: #e2ab15;
+     color: rgb(34, 34, 34);
+     border-radius: 5px;
+     outline: none;
+     border: none;
+     cursor: pointer;
+     padding: 5px 0;
+     width: 100%;
+     transition: ease 0.1s;
+   }
+   .inner-wrap button:hover {
+     background: #161d24;
+     color: rgb(223, 223, 223);
+   }
+   .error {
+     text-align: center;
+     font-size: 1rem !important;
+     margin-bottom: 15px !important;
+     color: rgb(241, 76, 26);
+   }
+   @media (max-width: 350px) {
+     .inner-wrap {
+       padding: 20px 30px;
+     }
+     .inner-wrap h1 {
+       font-size: 1.5rem;
+     }
+     .inner-wrap p {
+       font-size: 0.9rem;
+     }
+     .inner-wrap input {
+       font-size: 0.9rem;
+     }
+     .inner-wrap select {
+       font-size: 0.8rem;
+     }
+     .inner-wrap button {
+       font-size: 0.9rem;
+     }
+     .error {
+       font-size: 0.8rem !important;
+       margin-bottom: 10px !important;
+     }
+   }
